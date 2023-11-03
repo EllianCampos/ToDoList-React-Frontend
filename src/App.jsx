@@ -14,6 +14,7 @@ function App() {
           <Route path="/config" element = {<Config />} />
           <Route path="/main/tarea" element = {<Tarea />} />
           <Route path="/main/tarea/:id" element = {<Tarea />} />
+          <Route path="*" element={<Index />} />
         </Routes>
       </BrowserRouter>
     </>
