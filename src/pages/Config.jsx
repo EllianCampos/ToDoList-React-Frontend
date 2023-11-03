@@ -4,7 +4,7 @@ import { useCookies } from "react-cookie";
 import { useEffect, useState } from "react";
 import Crud from "../components/Crud";
 
-const API_URL = "https://elliancamposcrudapi.somee.com/api";
+const API_URL = import.meta.env.VITE_API_URL;
 
 export default function Config() {
  return (

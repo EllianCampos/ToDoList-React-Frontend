@@ -11,7 +11,7 @@ import Header from "../components/Header";
 import { useCookies } from "react-cookie";
 import { useEffect, useState } from "react";
 
-const API_URL = "https://elliancamposcrudapi.somee.com/api";
+const API_URL = import.meta.env.VITE_API_URL;
 
 export default function Crud({ title, route }) {
   const [cookie, setCookie] = useCookies(["token"]);

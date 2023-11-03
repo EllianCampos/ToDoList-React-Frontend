@@ -5,8 +5,9 @@ import { Link } from "react-router-dom";
 import { useCookies } from "react-cookie";
 import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
+import env from "react-dotenv";
 
-const API_URL = "https://elliancamposcrudapi.somee.com/api";
+const API_URL = import.meta.env.VITE_API_URL;
 
 export default function Index() {
   const [mode, setMode] = useState("singin" | "singup");

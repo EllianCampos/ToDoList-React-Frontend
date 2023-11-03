@@ -6,7 +6,7 @@ import { useCookies } from "react-cookie";
 
 import Header from "../components/Header"
 
-const API_URL = "https://elliancamposcrudapi.somee.com/api";
+const API_URL = import.meta.env.VITE_API_URL;
 
 export default function Main() {
   const [cookie, setCookie] = useCookies(["token"]);

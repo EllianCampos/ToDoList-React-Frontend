@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { useCookies } from "react-cookie";
 import { useNavigate, useParams } from "react-router-dom";
 
-const API_URL = "https://elliancamposcrudapi.somee.com/api";
+const API_URL = import.meta.env.VITE_API_URL;
 
 export default function Tarea({ match }) {
   const [cookie, setCookie] = useCookies(["token"]);
