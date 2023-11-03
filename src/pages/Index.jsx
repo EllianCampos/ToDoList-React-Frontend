@@ -1,11 +1,9 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useState } from "react";
 import { Col, Row, Form, FormGroup, Button, Alert } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import { useCookies } from "react-cookie";
 import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
-import env from "react-dotenv";
 
 const API_URL = import.meta.env.VITE_API_URL;
 

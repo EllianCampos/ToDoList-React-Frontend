@@ -1,8 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-import Index from "./pages/Index"
-import Main from "./pages/Main"
-import Config from "./pages/Config"
-import Tarea from "./pages/Tarea"
+// import Index from "./pages/Index"
+import Index from "./pages/"
+import Main from "./pages/Main.jsx"
+import Config from "./pages/Config.jsx"
+import Tarea from "./pages/Tarea.jsx"
 
 function App() {
   return (

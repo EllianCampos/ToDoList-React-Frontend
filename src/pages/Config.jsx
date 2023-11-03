@@ -1,7 +1,5 @@
-import { Col, Container, Row, Form, Button, Table, Alert } from "react-bootstrap";
+import { Container, Row } from "react-bootstrap";
 import Header from "../components/Header";
-import { useCookies } from "react-cookie";
-import { useEffect, useState } from "react";
 import Crud from "../components/Crud";
 
 const API_URL = import.meta.env.VITE_API_URL;
