@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
-// import Index from "./pages/Index"
 import Index from "./pages/"
 import Main from "./pages/Main.jsx"
 import Config from "./pages/Config.jsx"
